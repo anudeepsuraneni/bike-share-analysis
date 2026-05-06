@@ -18,7 +18,7 @@ A comprehensive analysis of bike-share data to understand user behavior and impr
 bike-share-analysis/
 ├── data/
 │   └── raw/
-│       └── [raw datasets]        # GIT ignored due to huge size, download from source URL above if needed
+│       └── [raw datasets]        # git-ignored, download from source URL above if needed
 ├── notebooks/
 │   └── cyclistic_analysis.ipynb  # Main Python-based analysis notebook
 ├── README.md                     # Project overview and guide
