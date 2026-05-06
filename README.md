@@ -8,7 +8,7 @@ A comprehensive analysis of bike-share data to understand user behavior and impr
 - This aggregated analysis uses only trip-level metadata with no personal/individual identifiers.
 - Raw data files are expected under `data/raw/` (this directory is git-ignored due to file size). Download the datasets from the source URL above and store each file using the following structure: `data/raw/{YYYYMM}-divvy-tripdata/{YYYYMM}-divvy-tripdata.csv`, where `YYYYMM` represents the year and month (e.g., `202601`).
 - All transformations and analysis are documented in [cyclistic_analysis.ipynb](notebooks/cyclistic_analysis.ipynb).
-- Processed data outputs are saved to `data/processed/` for downstream use.
+- Processed data outputs will be saved to `data/processed/` for downstream use.
 
 ---
 
