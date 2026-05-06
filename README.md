@@ -40,7 +40,7 @@ bike-share-analysis/
 - Converted time features to ordered categorical for consistent ordering.
 - Viewed summary statistics of entire dataframe using describe().
 - Removed irrelevant records:
-  - Rows missing `ride_id`, `end_station_id`, or `start_station_id`.
+  - Trips with negative or zero ride durations.
   - Extreme outliers in ride durations for EDA visuals and summary stats.
   - Trips out of expected date bounds.
 - Validated row counts, columns, data types, and missing values again after data cleaning and standardization.
